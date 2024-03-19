@@ -1,8 +1,8 @@
-# LREC-Coling
-[DEMO](https://644a58fbc08f02d0be.gradio.live/)
+# LREC-Coling-2024-Oral
+[[PAPER]](https://arxiv.org/abs/2403.10882), [[DATA]](), [[DEMO]](https://839990126292d1a832.gradio.live)
 
 ## Model Details
-- **Model Developers**: Anonymous
+- **Model Developers**: **ChangSu Choi**, Yongbin Jeong, Seoyoon Park, InHo Won, HyeonSeok Lim, SangMin Kim, Yejee Kang, Chanhyuk Yoon, Jaewan Park, Yiseul Lee, HyeJin Lee, Younggyun Hahm, Hansaem Kim, KyungTae Lim
 - **Model Architecture** : This Model is an auto-regressive language model that uses an optimized transformer architecture. The tuned versions use pre-training by multilingual text dataset and supervised fine-tuning by multi-task instruction.
 
 ## Dataset
@@ -138,3 +138,18 @@ Q: Translate this sentence in English
 지구(地球, 영어: Earth)는 태양으로부터 세 번째 행성이며, 조금 두꺼운 대기층으로 둘러싸여 있고, 지금까지 발견된 지구형 행성 가운데 가장 크다. 지구는 45억 6700만 년 전 형성되었으며, 용암 활동이 활발했던 지구와 행성 테이아의 격렬한 충돌로 생성되었을 달을 위성으로 둔다. 지구의 중력은 우주의 다른 물체, 특히 태양과 지구의 유일한 자연위성인 달과 상호작용한다. 지구와 달 사이의 중력 작용으로 조석 현상이 발생한다.
 ___
 A: The earth (地球, 영어:Earth) is the third planet from the sun, and it is the largest of all the known Earth-like planets. The earth was formed about 45.6 billion years ago by the violent collision of the early terrestrial planet and a large moon that generated volcanic activity on the young earth. The force of gravity on the earth is influenced by other celestial bodies, particularly the sun and the earth's only natural satellite, the moon. This force also produces the tide phenomenon.
+
+
+## Citation
+
+If you find LLaVA useful for your research and applications, please cite using this BibTeX:
+```bibtex
+@misc{choi2024optimizing,
+      title={Optimizing Language Augmentation for Multilingual Large Language Models: A Case Study on Korean}, 
+      author={ChangSu Choi and Yongbin Jeong and Seoyoon Park and InHo Won and HyeonSeok Lim and SangMin Kim and Yejee Kang and Chanhyuk Yoon and Jaewan Park and Yiseul Lee and HyeJin Lee and Younggyun Hahm and Hansaem Kim and KyungTae Lim},
+      year={2024},
+      eprint={2403.10882},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
